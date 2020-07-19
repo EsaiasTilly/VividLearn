@@ -1,0 +1,73 @@
+/* Body Styling */
+body {
+    background-color: #FEFEFE;
+}
+
+/* <Div> Content Styling */
+.content {
+    position: relative;
+    top: 67px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% - 50px - 20px * 2);
+    max-width: calc(1300px - 20px * 2);
+    padding: 20px;
+
+    background: #FFF;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.03);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.03);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.03);
+}
+
+/* <P> Header */
+p.header {
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 0px 0px 10px 0px;
+}
+
+/* <P> Paragraph */
+p.paragraph {
+    font-weight: 400;
+    font-size: smaller;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* In <P> Paragraph <A> Links */
+p.paragraph > a { color: rgb(44, 122, 190); cursor: pointer; text-decoration: underline; }
+p.paragraph > a:hover { color: rgb(21, 83, 138); }
+
+/* <Img> Images */
+img.image {
+    max-width: 100%;
+    margin-bottom: 7px;
+}
+
+/* <Code> Block */
+code.block {
+    display: block;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+/* <Code> Block Tab */
+code.block > tab {
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+}
+
+/* <P> Published */
+p.published {
+    font-weight: 400;
+    font-size: x-small;
+    font-style: italic;
+    margin: 0px 0px 10px 0px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* <P> Published Author Link */
+p.published > a { color: #000; text-decoration: none; }
+p.published > a:hover { text-decoration: underline; }

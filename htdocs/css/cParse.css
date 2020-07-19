@@ -1,0 +1,41 @@
+/* <Code> */
+code {
+    background-color: #FAFAFA;
+    padding: 4px 6px;
+    border: 1px #DDD solid;
+    border-radius: 2px;
+    color: #1A1A1A;
+}
+
+/* <Code class="line"> */
+code.line { white-space: nowrap; }
+
+/* <Cmt> Comment */
+cmt, cmt * { font-style: italic; color: #A0A1A7 !important; }
+
+/* <Str> String */
+str, str * { font-style: normal; color: #50A14F !important; }
+
+/* <Const> Constant */
+const { font-style: normal; color: #0184BC; }
+
+/* <Nmcl> Name Class */
+nmcl { font-style: normal; color: #C18401; }
+
+/* <Nmid> Name Id */
+nmid { font-style: normal; color: #4078F2; }
+
+/* <Prop> Property */
+prop { font-style: normal; color: #0031a3; }
+
+/* <Prop> Colon */
+colon { font-style: normal; color: #1e9aaa; }
+
+/* <Var> Variable */
+var { font-style: normal; color: #ae00ff; }
+
+/* <Sign> Special Signs */
+sign { font-style: normal; font-weight: bold; color: #C18401; }
+
+/* <Method> Method Name */
+method { font-style: oblique; color: #5900ff; }
